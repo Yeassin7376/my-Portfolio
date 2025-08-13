@@ -13,7 +13,7 @@ const NavBar = () => {
   );
 
   return (
-    <div className="navbar w-10/12 mx-auto">
+    <div className="flex items-center min-h-14 w-10/12 mx-auto">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost p-0 lg:hidden">
@@ -26,7 +26,7 @@ const NavBar = () => {
             {links}
           </ul>
         </div>
-        <a href='#' className='flex items-center gap-1.5 text-xl md:text-2xl'><img className='w-10 md:w-16 ' src="/src/assets/profileLogo.png" alt="" /> Yeassin</a>
+        <a href='#' className='flex items-center gap-1.5 text-xl md:text-3xl'><img className='w-10 md:w-16 ' src="/src/assets/profileLogo.png" alt="" /> Yeassin</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
