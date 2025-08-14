@@ -16,7 +16,7 @@ const Hero = () => {
           <a target='_blank' href="https://github.com/Yeassin7376"><FaGithubSquare /></a>
           <a target='_blank' href="https://www.facebook.com/yeassinali7376"><FaFacebookSquare /></a>
           </div>
-          <button className="btn btn-primary">Download resume</button>
+          <button className="btn bg-gray-800 text-white">Download resume</button>
         </div>
       </div>
     </div>

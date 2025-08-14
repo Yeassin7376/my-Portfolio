@@ -9,6 +9,12 @@ const NavBar = () => {
       <li>
         <a href='#about'>About</a>
       </li>
+      <li>
+        <a href='#skills'>Skills</a>
+      </li>
+      <li>
+        <a href='#contact'>Contact</a>
+      </li>
     </>
   );
 
@@ -32,7 +38,7 @@ const NavBar = () => {
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <a className="btn bg-gray-800 text-white">Download resume</a>
       </div>
     </div>
   );

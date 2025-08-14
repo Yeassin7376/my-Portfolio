@@ -4,6 +4,7 @@ import Hero from '../Sections/Hero';
 import About from '../Sections/About';
 import Footer from '../../Components/Footer';
 import Skills from '../Sections/Skills';
+import Contact from '../Sections/Contact';
 
 const Home = () => {
     return (
@@ -18,6 +19,9 @@ const Home = () => {
                 </section>
                 <section>
                     <Skills></Skills>
+                </section>
+                <section>
+                    <Contact></Contact>
                 </section>
             </main>
 
