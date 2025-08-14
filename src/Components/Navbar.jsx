@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const Navbar = () => {
   const links = (
@@ -35,15 +36,17 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <a href="#" className="flex items-center gap-1.5 text-xl md:text-3xl">
+        <Link to="/" className="flex items-center gap-1.5 text-xl md:text-3xl">
           <img className="w-10 md:w-16 " src="/src/assets/profileLogo.png" alt="" /> Yeassin
-        </a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn bg-gray-800 text-white">Download resume</a>
+        <a href="/resume.pdf" download className="btn bg-gray-800 text-white">
+          Download Resume
+        </a>
       </div>
     </div>
   );
