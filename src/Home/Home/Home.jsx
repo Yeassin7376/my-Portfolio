@@ -1,35 +1,30 @@
 import React from 'react';
-import Navbar from '../../Components/NavBar';
 import Hero from '../Sections/Hero';
 import About from '../Sections/About';
-import Footer from '../../Components/Footer';
 import Skills from '../Sections/Skills';
 import Contact from '../Sections/Contact';
+import Projects from '../Sections/Projects';
 
 const Home = () => {
-    return (
-        <div>
-            <header className='sticky top-0 z-50  bg-cyan-950'><Navbar></Navbar></header>
-            <main>
-                <section >
-                    <Hero></Hero>
-                </section>
-                <section className=''>
-                    <About></About>
-                </section>
-                <section>
-                    <Skills></Skills>
-                </section>
-                <section>
-                    <Contact></Contact>
-                </section>
-            </main>
-
-            <footer className=' bg-neutral '>
-                <Footer></Footer>
-            </footer>
-        </div>
-    );
+  return (
+    <div>
+      <section>
+        <Hero></Hero>
+      </section>
+      <section className="">
+        <About></About>
+      </section>
+      <section>
+        <Skills></Skills>
+      </section>
+      <section>
+        <Projects></Projects>
+      </section>
+      <section>
+        <Contact></Contact>
+      </section>
+    </div>
+  );
 };
 
 export default Home;

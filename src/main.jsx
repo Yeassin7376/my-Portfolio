@@ -3,9 +3,11 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import Home from './Home/Home/Home'
 import App from './App'
+import { RouterProvider } from 'react-router'
+import router from './routes/router'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Home></Home>
+    <RouterProvider router={router}></RouterProvider>
   </StrictMode>,
 )

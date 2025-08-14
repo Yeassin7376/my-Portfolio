@@ -1,19 +1,22 @@
 import React from 'react';
 
-const NavBar = () => {
+const Navbar = () => {
   const links = (
     <>
       <li>
-        <a href='#home'>Home</a>
+        <a href="#home">Home</a>
       </li>
       <li>
-        <a href='#about'>About</a>
+        <a href="#about">About</a>
       </li>
       <li>
-        <a href='#skills'>Skills</a>
+        <a href="#skills">Skills</a>
       </li>
       <li>
-        <a href='#contact'>Contact</a>
+        <a href="#projects">Projects</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
       </li>
     </>
   );
@@ -32,7 +35,9 @@ const NavBar = () => {
             {links}
           </ul>
         </div>
-        <a href='#' className='flex items-center gap-1.5 text-xl md:text-3xl'><img className='w-10 md:w-16 ' src="/src/assets/profileLogo.png" alt="" /> Yeassin</a>
+        <a href="#" className="flex items-center gap-1.5 text-xl md:text-3xl">
+          <img className="w-10 md:w-16 " src="/src/assets/profileLogo.png" alt="" /> Yeassin
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
@@ -44,4 +49,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navbar;
