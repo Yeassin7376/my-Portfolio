@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div id="home" className="w-10/12 mx-auto py-5 md:py-10  ">
       <div className="flex items-center justify-center  flex-col lg:justify-between lg:flex-row-reverse">
-        <img src="/src/assets/myPhoto.png" className="max-w-[400px] h-[400px] p-1  rounded-full object-cover shadow-2xl" />
+        <img src="https://i.ibb.co.com/mr7vbkzZ/profile-picture-9-min.png" className="max-w-[400px] h-[400px] p-1 border-s-2 border-e-2 border-yellow-200  rounded-full object-cover shadow-2xl" />
         <div className="flex flex-col items-center md:items-start gap-10">
           <h1 className="text-5xl font-bold">
             I'm <span className="text-amber-300">Yeassin</span> Ali{' '}

@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div id='about' className="w-10/12 mx-auto py-5 md:py-10 ">
       <h2 className="text-xl md:text-4xl font-bold text-center my-5 md:my-10 text-amber-300">About me</h2>
-      <div className='p-5 border border-amber-200 rounded-3xl'>
+      <div className='p-5 border-s-4 border-e-4 border-amber-200 rounded-3xl'>
         <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
           Hello! I'm <span className="font-semibold">Yeassin</span>, a passionate Frontend Developer and Computer Science student from Bangladesh. I specialize
           in crafting responsive, user-friendly, and visually engaging websites using modern web technologies like{' '}
