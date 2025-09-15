@@ -5,7 +5,8 @@ const Footer = () => {
   return (
     <footer className="footer justify-between w-10/12 px-0 mx-auto sm:footer-horizontal bg-neutral text-neutral-content p-10">
       <aside>
-        <img src="https://i.ibb.co.com/HL8qx6n1/profile-Logo.png" className='w-16 ' alt="" />
+        {/* <img src="https://i.ibb.co.com/HL8qx6n1/profile-Logo.png" className='w-16 ' alt="" /> */}
+        <img src="logo1.png" className='w-16 ' alt="" />
         <p>
           <span className='text-xl'>Md <span className='text-amber-300 font-medium'>Yeassin</span> Ali</span>
           <br />
